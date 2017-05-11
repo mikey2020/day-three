@@ -27,5 +27,3 @@ class StringSplosion{
 
 module.exports = StringSplosion;
 
-let me = new StringSplosion("like");
-me.turnToString(me.manipulate());

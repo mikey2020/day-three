@@ -1,3 +1,4 @@
+const StringSplosion = require('../app/stringSplosion');
 describe(" String splosion", function(){
 
     it("should manipulate the string", function(){
