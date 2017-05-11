@@ -2,7 +2,6 @@ class StringSplosion{
 	constructor(word){
 		this.word = word;
 		this.letters = this.word.split('');
-		console.log(this.letters);
 	}
 
 	manipulate(){
@@ -11,9 +10,7 @@ class StringSplosion{
 	    let splodedList = [];
 		while(stop <= this.letters.length){
 			let val = this.letters.slice(start,stop);
-			console.log(val);
 			splodedList.push(val);
-			console.log(splodedList);
 			stop++;
 		}
 		let splodedWord = splodedList.toString();
