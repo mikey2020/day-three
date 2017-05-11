@@ -1,0 +1,22 @@
+{
+  "name": "day-three",
+  "version": "1.0.0",
+  "description": "Andela day three tasks/labs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikey2020/day-three.git"
+  },
+  "author": "Michael Eboagu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikey2020/day-three/issues"
+  },
+  "homepage": "https://github.com/mikey2020/day-three#readme",
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  }
+}
