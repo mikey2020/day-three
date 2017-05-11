@@ -8,19 +8,18 @@ class StringSplosion{
 	manipulate(){
 		let stop = 0;
 		let start = 0;
-	    this.sploded = [];
+	    let splodedList = [];
 		while(stop <= this.letters.length){
 			let val = this.letters.slice(start,stop);
 			console.log(val);
-			this.sploded.push(val);
-			console.log(this.sploded);
+			splodedList.push(val);
+			console.log(splodedList);
 			stop++;
 		}
-		//this.sploded.split(',');
-		let sploded = this.sploded.toString();
-		sploded = sploded.replace(/,/g,'');
+		let splodedWord = splodedList.toString();
+		splodedWord = splodedWord.replace(/,/g,'');
 		
-		return sploded;
+		return splodedWord;
 	}
 
 }
