@@ -23,6 +23,11 @@ describe("Produce the reverse order of a word: ", function() {
       expect(myApp.reverseString('civic')).toEqual(true);
     });
 
+    it("should return true for `peep`", function() {
+      expect(myApp.reverseString('peep')).toEqual(true);
+    });
+
+
   });
 
   describe("Case for normal words", function() {
@@ -37,6 +42,14 @@ describe("Produce the reverse order of a word: ", function() {
 
     it("should return `csim` for `misc`", function() {
       expect(myApp.reverseString('misc')).toEqual('csim');
+    });
+
+    it("should return `leahcim` for `michael`", function() {
+      expect(myApp.reverseString('michael')).toEqual('leahcim');
+    });
+
+    it("should return `hello` for `olleh`", function() {
+      expect(myApp.reverseString('olleh')).toEqual('hello');
     });
 
   });
